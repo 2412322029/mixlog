@@ -1,6 +1,6 @@
 
 [project]
-name = "fastapipg"
+name = "mixlog"
 version = "0.1.0"
 description = "fastapi,vue,blog"
 authors = [
@@ -27,7 +27,7 @@ dependencies = [
     "ruamel-yaml>=0.17.28",
     "cryptography>=40.0.2",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 license = {text = "MIT"}
 
 [build-system]

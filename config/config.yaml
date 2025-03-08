@@ -10,14 +10,14 @@ allow_origin_regex: http://127\.0\.0\.1:.*
 databases:
   host: 127.0.0.1
   username: root
-  password: '123456'
+  password: ''
   port: '3306'
-  dbname: blog
+  dbname: mixlog
 
 # fastapi
 uvicorn:
   host: 0.0.0.0
-  port: 8000
+  port: 80
   workers: 1
 
 

@@ -59,7 +59,7 @@ import { OpenAPI, Service, type RegisterSuccess, UserCreate, ApiError, respCode 
 import { NButton, NForm, NFormItem, NRow, NCol, NInput, FormItemRule, FormRules } from 'naive-ui';
 import { useMessage } from 'naive-ui'
 const message = useMessage()
-const emit = defineEmits(['gologin'])
+const emit = defineEmits(['gologin', 'closeform'])
 defineProps<{
     showForm: boolean
 }>()
